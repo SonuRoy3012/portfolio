@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signup — Sonu Roy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header small">
+<div class="container">
+<h1 class="logo">Sonu Roy</h1>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="signup.html">Signup</a>
+<a href="about.html">About Me</a>
+<a href="gallery.html">My Gallery</a>
+<a href="contact.html">Contact Me</a>
+</nav>
+</div>
+</header>
+<main class="container form-page">
+<h2>Registration Form</h2>
+<form id="regForm" action="#" method="post" class="form-grid">
+<label>First Name<input type="text" name="first_name" required></label>
+<label>Last Name<input type="text" name="last_name"></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Password<input type="password" name="password" required></label>
+<label>Confirm Password<input type="password" name="confirm_password"></label>
+<label>Date of Birth<input type="date" name="dob"></label>
+<label>Gender
+<select name="gender">
+<option>Prefer not to say</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+</label>
+<label>Phone Number<input type="tel" name="phone"></label>
+<label>Address (Street)<input type="text" name="address"></label>
+<label>City<input type="text" name="city"></label>
+<label>State<input type="text" name="state"></label>
+<label>Country<input type="text" name="country" value="India"></label>
+<label>PIN Code<input type="text" name="pin"></label>
+<label>College / Institution<input type="text" name="college"></label>
+<label>Course / Branch<input type="text" name="branch"></label>
+<label>Year of Study<select name="year">
+<option>1st</option>
+<option>2nd</option>
+<option>3rd</option>
+<option selected>4th</option>
+</select></label>
+<label>Primary Skills (comma separated)<input type="text" name="skills"></label>
+<label>Short Bio (max 200 chars)<textarea name="bio" rows="3"></textarea></label>
+<div class="form-actions">
+<button type="submit" class="btn">Register</button>
+<button type="reset" class="btn btn-outline">Reset</button>
+</div>
+</form>
+<p class="note">*Form validations are not required for the assignment;
+fields marked required are for demo only.</p>
+</main>
+<footer class="site-footer">
+<div class="container">&copy; 2025 Sonu Roy</div>
+</footer>
+</body>
+</html>
